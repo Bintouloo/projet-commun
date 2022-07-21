@@ -9,6 +9,12 @@
 <body> 
     <form> 
         <h1>Formulaire d'inscription</h1>   
+        <button type="button" class="btn btn-primary position-relative">
+            Profile
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
         <p> 
             <label for="pseudo">Pseudo</label> :   
             <input type="text" name="pseudo" id="pseudo" required>       
@@ -16,12 +22,12 @@
         </p>    
         <p>    
             <label for="mdp">Mot de passe</label> :
-            <input type="password" name="mdp" id="mdp" required>
-            <span id="aideMdp"></span>
+            <input type="password" name="fbl" id="fbl" required>
+            <span id="aideFbl"></span>
         </p>
         <p>
             <label for="courriel">Courriel</label> :
-            <input type="email" name="courriel" id="courriel" required placeholder="utilisateur@domaine.fr">
+            <input type="email" name="courriel" id="courriel" required placeholder="fatoubintoulo754@gmail.com">
             <span id="aideCourriel"></span>
         </p>
         <p>
@@ -46,6 +52,8 @@
                 <option value="BE">Belge</option> 
                 <option value="SUI">Suisse</option> 
                 <option value="XX">Autre</option> 
+                <option value="SN"> Sénégal</option>
+                <option value="MR">Maroc</option>
             </select> 
         </p> 
 
